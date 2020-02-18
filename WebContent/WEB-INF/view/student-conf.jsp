@@ -10,5 +10,12 @@
 </head>
 <body>
 	The student is confirmed: ${student.firstName} ${student.lastName}
+	
+	<br/><br/>
+	Country: ${student.country}
+	
+	<br/><br/>
+	Fav Language: ${student.languages}
+	
 </body>
 </html>

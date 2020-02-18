@@ -15,6 +15,21 @@
 		<br/><br/>
 		Last name : <form:input path="lastName"/>	
 		<br/><br/>
+		Country
+		<form:select path="country">
+			
+			<form:options items="${student.countryOptions}"/>
+			
+		</form:select>
+		
+		<br/><br/>
+		
+		Fav Programming languages:
+		<form:radiobuttons path="languages" items="${student.favLanguages}"/>
+		
+		
+		
+		
 		<input type="submit" value="Submit">
 		
 	</form:form>
