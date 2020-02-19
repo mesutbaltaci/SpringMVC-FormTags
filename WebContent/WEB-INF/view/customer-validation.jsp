@@ -9,6 +9,6 @@
 </head>
 <body>
 
-Customer: ${customer.firstName} ${customer.lastName}
+Customer: ${customer.firstName} ${customer.lastName} ${customer.freePasses} ${customer.postalCode}
 </body>
 </html>
